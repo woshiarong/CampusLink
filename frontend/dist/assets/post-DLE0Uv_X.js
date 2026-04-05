@@ -1,0 +1,1 @@
+import{N as t}from"./index-BniphWAw.js";const a=s=>t.get("/admin/posts",{params:s}),i=(s,p)=>t.put(`/admin/posts/${s}/pin`,{pinned:p}),e=(s,p)=>t.put(`/admin/posts/${s}/feature`,{featured:p}),n=s=>t.delete(`/admin/posts/${s}`),m=(s,p)=>t.put(`/admin/posts/${s}/move`,{boardId:p}),d=s=>t.put(`/admin/posts/${s}/approve`);export{d as a,n as d,e as f,a as l,m,i as p};
